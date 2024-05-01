@@ -9,7 +9,7 @@ from sklearn import tree
 
 # data = pd.read_csv("./datasets/winequality-white.csv",sep=";")
 # train_data=data[:1000]
-train_data = pd.read_csv("./datasets/wine_dataset_train.csv",sep=";" ,  on_bad_lines='skip' )
+train_data = pd.read_csv("./datasets/dataset_finalrealdata_handwriting_train.csv",sep=";" ,  on_bad_lines='skip' )
 data_X = train_data.iloc[:,0:11]
 data_Y1 = train_data.iloc[:,11:12]
 data_Y = np.ravel(data_Y1)

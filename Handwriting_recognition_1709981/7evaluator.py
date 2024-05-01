@@ -4,7 +4,7 @@ import pandas as pd
 import pickle as p1
 
 # Load evaluation data
-evaluation_data = pd.read_csv("./datasets/wine_dataset_test.csv", sep=";")
+evaluation_data = pd.read_csv("./datasets/dataset_finalrealdata_handwriting_test.csv", sep=";")
 data_X = evaluation_data.iloc[:, 0:11]
 data_Y = evaluation_data.iloc[:, 11:12]
 

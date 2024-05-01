@@ -66,12 +66,12 @@ print(select_test)
 print(type(data_train))
 #print(data_train)
 
-with open('./datasets/wine_dataset_train.csv', 'w',newline='') as f:
+with open('./datasets/dataset_finalrealdata_handwriting_train.csv', 'w',newline='') as f:
     # using csv.writer method from CSV package
     write = csv.writer(f,delimiter=';')
     write.writerows(data_train)
 f.close()
-with open('./datasets/wine_dataset_test.csv', 'w',newline='') as f:
+with open('./datasets/dataset_finalrealdata_handwriting_test.csv', 'w',newline='') as f:
     # using csv.writer method from CSV package
     write = csv.writer(f,delimiter=';')
     write.writerows(data_test)
