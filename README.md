@@ -160,6 +160,7 @@ https://github.com/mtech00/conversion_picture_to_numbers
 
 [12] Microsoft. Visual Studio Code Documentation. Visual Studio Code User Guide. 
 Available online at: https://code.visualstudio.com/docs
+
 [13] macOS Developer Documentation. macOS Developer Documentation. Available 
 online at: https://developer.apple.com/documentation/
 
