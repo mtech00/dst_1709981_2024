@@ -69,38 +69,114 @@ Original image :
 Architectural Design
 
 Input Data:
-+------------------------+
-|  realdata_handwriting  |
-|  .png                  |
-+------------------------+
-            |
-            v
-+------------------------+       +--------------------------+
-|   resize_image.py      | ----> |   split_images.py        |
-+------------------------+       +--------------------------+
-            |                              |
-            |                              |
-            v                              v
-+------------------------+       +--------------------------+
-|  read_all_files.py     | ----> |  conversion_picture_     |
-+------------------------+       |  to_numbers.py           |
-            |                    +--------------------------+
-            |                              |
-            v                              v
-+--------------------------+     +--------------------------+
-|   dataset_build.py       | --> | split_dataset_test_train |
-+--------------------------+     +--------------------------+
-            |                              |
-            |                              |
-            v                              v
-+------------------------+       +--------------------------+
-|   train.py              | ----> |   evaluator.py           |
-+------------------------+       +--------------------------+
-                                    |
-                                    v
-+------------------------+       +--------------------------+
-|   prediction.py        | <----- |   Output                 |
-+------------------------+       +--------------------------+
+        +-------------------+
+        | Image Processing  |
+        |                   |
+        |   Input: Image    |
+        |                   |
+        |   Processing:     |
+        |   - Resizing      |
+        |   - Splitting     |
+        |                   |
+        |   Output:         |
+        |   - Resized Image |
+        |   - Segmented     |
+        |     Images        |
+        +-------------------+
+                   |
+                   |
+                   v
+        +-------------------+
+        |  Data Conversion  |
+        |                   |
+        |   Input:          |
+        |   - Segmented     |
+        |     Images        |
+        |   - Resized Image |
+        |                   |
+        |   Conversion:     |
+        |   - Convert to    |
+        |     CSV Files     |
+        |                   |
+        |   Output:         |
+        |   - CSV Files     |
+        +-------------------+
+                   |
+                   |
+                   v
+        +-------------------+
+        |  Data Preparation |
+        |                   |
+        |   Input: CSV      |
+        |   Files           |
+        |                   |
+        |   Processing:     |
+        |   - Split into    |
+        |     Training and  |
+        |     Testing       |
+        |     Datasets      |
+        |                   |
+        |   Output:         |
+        |   - Training and  |
+        |     Testing       |
+        |     Datasets      |
+        +-------------------+
+                   |
+                   |
+                   v
+        +-------------------+
+        |  Model Training   |
+        |  and Evaluation   |
+        |                   |
+        |   Input:          |
+        |   - Training and  |
+        |     Testing       |
+        |     Datasets      |
+        |                   |
+        |   Training:       |
+        |   - Train Model   |
+        |                   |
+        |   Evaluation:     |
+        |   - Evaluate Model|
+        |                   |
+        |   Output:         |
+        |   - Trained Model |
+        |   - Evaluation    |
+        |     Metrics       |
+        +-------------------+
+                   |
+                   |
+                   v
+        +-------------------+
+        |    Conclusion     |
+        |                   |
+        |   Input:          |
+        |   - Evaluation    |
+        |     Metrics       |
+        |                   |
+        |   Conclusion:     |
+        |   - Analyze       |
+        |     Results       |
+        |                   |
+        |   Output:         |
+        |   - Conclusion    |
+        +-------------------+
+                   |
+                   |
+                   v
+        +-------------------+
+        |  Further Analysis|
+        |                   |
+        |   Input:          |
+        |   - Conclusion    |
+        |                   |
+        |   Analysis:       |
+        |   - Further       |
+        |     Analysis or   |
+        |     Optimization  |
+        |                   |
+        +-------------------+
+
 
 
 1.	Image Processing (Resizing and Splitting):
