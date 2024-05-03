@@ -9,8 +9,7 @@ handwritten
 Student: Muhammet Ali YILDIZ , 
 1709981,
 mtech00, 
-https://github.com/mtech00/dst_17099
-81_2024.git 
+https://github.com/mtech00/dst_1709981_2024.git 
 yldzmuhammedali@gmail.com 
 Muhammet-YILDIZ-1709981
 
