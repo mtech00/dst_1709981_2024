@@ -69,6 +69,7 @@ Original image :
 Architectural Design
 
 Input Data:
+
         +-------------------+
         | Image Processing  |
         |                   |
@@ -176,6 +177,8 @@ Input Data:
         |     Optimization  |
         |                   |
         +-------------------+
+
+
 
 
 
