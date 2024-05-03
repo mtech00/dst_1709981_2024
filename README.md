@@ -1,3 +1,7 @@
+![alt text](https://github.com/mtech00/dst_1709981_2024/blob/main/BHmAt.png "Logo Title Text 1")
+
+
+
 Practical Work Report
 Topics in Data Science
 
