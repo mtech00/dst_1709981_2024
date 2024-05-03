@@ -9,8 +9,7 @@ handwritten
 Student: Muhammet Ali YILDIZ , 
 1709981,
 mtech00, 
-https://github.com/mtech00/dst_17099
-81_2024.git 
+https://github.com/mtech00/dst_1709981_2024.git 
 yldzmuhammedali@gmail.com 
 Muhammet-YILDIZ-1709981
 
@@ -67,6 +66,25 @@ Original image :
   
  
  
+Architectural Design
+
++------------------------+       +--------------------------+       +---------------------------+       +---------------------------+
+|   resize_image.py      | ----> |   split_images.py        | ----> |   read_all_files.py       | ----> |  conversion_picture_to_numbers.py  |
++------------------------+       +--------------------------+       +---------------------------+       +---------------------------+
+            |                              |                                 |                                 |
+            |                              |                                 |                                 |
+            v                              v                                 v                                 v
++------------------------+       +--------------------------+       +---------------------------+       +---------------------------+
+|  dataset_build.py      | ----> | split_dataset_test_train | ----> |   train.py                 | ----> |  evaluator.py                 |
++------------------------+       +--------------------------+       +---------------------------+       +---------------------------+
+                                                                                |
+                                                                                |
+                                                                                v
+                                                                    +---------------------------+
+                                                                    |  prediction.py             |
+                                                                    +---------------------------+
+
+
 
 1.	Image Processing (Resizing and Splitting):
 •	The code loads an image and resizes it to a standard dimension 
@@ -160,6 +178,7 @@ https://github.com/mtech00/conversion_picture_to_numbers
 
 [12] Microsoft. Visual Studio Code Documentation. Visual Studio Code User Guide. 
 Available online at: https://code.visualstudio.com/docs
+
 [13] macOS Developer Documentation. macOS Developer Documentation. Available 
 online at: https://developer.apple.com/documentation/
 
