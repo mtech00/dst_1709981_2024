@@ -1,6 +1,4 @@
-[alt text]([https://github.com/mtech00/dst_1709981_2024/blob/main/BHmAt.png](https://github.com/mtech00/dst_1709981_2024/blob/main/Handwriting_recognition_1709981/Screenshot%202024-05-03%20at%2009.38.45.png) "Logo Title Text 1")
-
-
+![alt text](https://github.com/mtech00/dst_1709981_2024/blob/0825b702927e6349f06aa5ff50f74e747b525fd4/Handwriting_recognition_1709981/Screenshot%202024-05-03%20at%2009.38.45.png)
 
 Practical Work Report
 Topics in Data Science
