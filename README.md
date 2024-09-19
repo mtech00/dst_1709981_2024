@@ -8,12 +8,7 @@ handwritten
 
 
 
-Student: Muhammet Ali YILDIZ , 
-1709981,
-mtech00, 
-https://github.com/mtech00/dst_1709981_2024.git 
-yldzmuhammedali@gmail.com 
-Muhammet-YILDIZ-1709981
+
 
  
 
@@ -241,7 +236,7 @@ accurate and reliable predictive models for similar data science tasks in the fu
 
 
 Bibliography
-[1] Paulo Vieira Professor at IPG  
+[1] 
 
 [2] Python Software Foundation. Python Language Reference, version 3.x. Available 
 online at: https://docs.python.org/3/
